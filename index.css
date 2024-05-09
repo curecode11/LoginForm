@@ -1,0 +1,96 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .dark {
+                background-color: black;
+                color: white;
+            }
+
+            .light {
+                background-color: white;
+                color: black;
+
+            }
+            .pink{
+                background: radial-gradient(pink,violet);
+                color: black;
+            }
+            .grey{
+                background: #777;
+                color: white;
+            }
+
+            /* .pink{
+            background: radial-gradient(pink,violet);
+            color: white;
+        }
+        .aqua{
+            background: aqua;
+        } */
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .container {
+                text-align: center;
+                border-radius: 10px;
+                /* border: 2px solid black; */
+                margin-top: 7vmin;
+                width: 80vmin;
+                border: 2px solid black;
+            }
+
+            .login {
+                margin-top: 30px;
+                padding-bottom: 20px;
+            }
+
+            label {
+                font-weight: 900;
+                font-size: larger;
+            }
+
+            .fname,
+            .lname,
+            .pword,
+            .rpword {
+                height: 20px;
+                width: 250px;
+            }
+            .borderblack{
+                border: 2px solid black ;
+            }
+            .borderlight{
+                border: 2px solid white;
+            }
+            .container h1 {
+                /* background: green; */
+                border-radius: 9px;
+                border: 2px solid black;
+            }
+
+            .btn {
+                /* background: radial-gradient(pink, violet); */
+                color: black;
+                height: 30px;
+                width: 60px;
+                margin-bottom: 20px;
+                border-radius: 4px;
+                box-shadow: 3px 3px 10px black;
+                border: 2px solid #777;
+            }
+
+            .toggle {
+                width: 60px;
+                height: 30px;
+                /* background: white; */
+                margin-top: 20px;
+                border-radius: 6px;
+
+            }
